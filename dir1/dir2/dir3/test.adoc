@@ -1,0 +1,16 @@
+Does asciidoctor support the same realtive images links?
+
+Yes, it seems we can use root relative syntax:
+
+image:/images/img1/image1.png[image 1]
+image:/images/img2/image2.png[image 2]
+
+Does relative syntax also work? Yes it does.
+
+image:../../../images/img1/image1.png[image 1]
+image:../../../images/img2/image2.png[image 2]
+
+
+
+
+
