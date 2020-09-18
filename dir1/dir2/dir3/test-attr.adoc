@@ -1,0 +1,18 @@
+:notitle:
+:imagesdir: /images/img1
+
+Asciidoctor also supports specifying the image dir, does GitHub have an understanding of that?
+
+image:image1.png[image 1]
+
+Ya it does, in tests the following worked:
+
+```
+:imagesdir: ../../images/img1
+```
+which is confusing... because I am 3 not 2 dirs down.
+
+Root relative where root is repo root works:
+```
+:imagesdir: /images/img1
+```
