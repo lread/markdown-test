@@ -1,3 +1,5 @@
+
+== Image refs
 Does asciidoctor support the same realtive images links?
 
 Yes, it seems we can use root relative syntax:
@@ -10,7 +12,38 @@ Does relative syntax also work? Yes it does.
 image:../../../images/img1/image1.png[image 1]
 image:../../../images/img2/image2.png[image 2]
 
+== Collapsible
 
+Does github deal with collapsible?
 
+Yes it does!
+.Collapse test
+[%collapsible]
+====
+hello
+====
 
+What about something a bit fancier?
 
+.cmd for cljdoc docker - full preview
+[%collapsible]
+====
+=====
+[source,shell,subs="verbatim,attributes"]
+----
+docker run --rm \
+  --volume "$HOME/.m2:/root/.m2" \
+  --volume /tmp/cljdoc:/app/data \
+  --entrypoint clojure \
+  cljdoc/cljdoc -A:cli ingest \
+    --project {example-project-coords} \
+    --version {example-project-version} \
+    --git {example-project-import-url} \
+    --rev $(git rev-parse HEAD)
+----
+Where (update values as appropriate):
+
+* `{example-project-version}` is the version of {example-project-name} published to your local maven repository.
+* `{example-project-import-url-esc}` is the GitHub URL for {example-project-name}, update if you have forked the repo.
+=====
+====
