@@ -1,5 +1,6 @@
 # markdown-test
 
+## Image Refs
 Testing what type of image references GitHub supports
 
 We know that relative from root works:
