@@ -11,5 +11,9 @@ Does relative syntax also work?
 ![image 2](../../../images/img2/image2.png)
 
 
+What does GitHub do when we are relative above git root? It does not block it.
 
+![testing absolute](https://github.com/lread/rewrite-cljc-playground/raw/master/doc/rewrite-cljc-logo.svg)
+
+![testing relative](../../../../../../rewrite-cljc-playground/raw/master/doc/rewrite-cljc-logo.svg)
 
