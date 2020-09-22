@@ -47,3 +47,11 @@ Where (update values as appropriate):
 * `{example-project-import-url-esc}` is the GitHub URL for {example-project-name}, update if you have forked the repo.
 =====
 ====
+
+== Quoted Text
+
+If we use markdown style quoted text, how does that appear on GitHub?
+
+> Quoted text.
+>
+> Another paragraph in quote.
