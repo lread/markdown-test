@@ -19,8 +19,6 @@ How do relative images behave from deeper?
 
 ## Quoted text
 
-If we use markdown style quoted text, how does that appear on GitHub?
-
 > Quoted text.
 >
 > Another paragraph in quote.
