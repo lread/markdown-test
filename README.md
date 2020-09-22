@@ -16,3 +16,11 @@ How do relative images behave from deeper?
 [markdown](dir1/dir2/dir3/test.md)
 
 [asciidoc](dir1/dir2/dir3/test.adoc)
+
+## Quoted text
+
+If we use markdown style quoted text, how does that appear on GitHub?
+
+> Quoted text.
+>
+> Another paragraph in quote.
