@@ -25,3 +25,6 @@ What does GitHub do when we are relative above git root? It does not block it.
 
 ![testing relative](../../../../../../rewrite-cljc-playground/raw/master/doc/rewrite-cljc-logo.svg)
 
+Ok let's try any html, just to see that work:
+
+<b>bold statement</b>
