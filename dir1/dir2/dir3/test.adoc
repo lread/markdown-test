@@ -12,6 +12,10 @@ Does relative syntax also work? Yes it does.
 image:../../../images/img1/image1.png[image 1]
 image:../../../images/img2/image2.png[image 2]
 
+Are data uris supported? Seems like a no?
+
+image:data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=[Dot]
+
 == Collapsible
 
 Does github deal with collapsible?
