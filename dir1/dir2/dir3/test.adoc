@@ -63,3 +63,7 @@ If we use markdown style quoted text, how does that appear on GitHub?
 > > nested quote
 >
 > back to non-nested
+
+== Emojis?
+
+Does github render emojis from adoc? bear :bear: smirk :smirk: grin :grin:
