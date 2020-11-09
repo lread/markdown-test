@@ -28,3 +28,14 @@ What does GitHub do when we are relative above git root? It does not block it.
 Ok let's try any html, just to see that work:
 
 <b>bold statement</b>
+
+Let's try some embedded html samples. Can embedded html contain markup?
+**am I bold?**
+
+<table>
+ <tr>
+  <td>
+**am I bold?**
+  </td>
+ </tr>
+</table>
