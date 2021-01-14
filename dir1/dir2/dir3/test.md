@@ -39,3 +39,25 @@ Let's try some embedded html samples. Can embedded html contain markup?
   </td>
  </tr>
 </table>
+
+Check on various language strings for Clojure:
+
+```Clojure
+(+ 1 2 3)
+```
+
+```CLJ
+(+ 1 2 3)
+```
+
+```cljs
+(+ 1 2 3)
+```
+
+```cljc
+(+ 1 2 3)
+```
+
+```ClojureScript
+(+ 1 2 3)
+```
