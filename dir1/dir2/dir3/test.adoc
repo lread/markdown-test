@@ -67,3 +67,38 @@ If we use markdown style quoted text, how does that appear on GitHub?
 == Emojis?
 
 Does github render emojis from adoc? bear :bear: smirk :smirk: grin :grin:
+
+
+Code block language ids
+
+Looks like same ids as md
+
+Clojure
+[source,Clojure]
+----
+(+ 1 2 3)
+----
+
+CLJ (caps unimportant)
+[source,CLJ]
+----
+(+ 1 2 3)
+----
+
+cljs
+[source,cljs]
+----
+(+ 1 2 3)
+----
+
+cljc
+[source,cljc]
+----
+(+ 1 2 3)
+----
+
+ClojureScript is not recognized as clojure block
+[source,ClojureScript]
+----
+(+ 1 2 3)
+----
