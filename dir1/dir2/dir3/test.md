@@ -42,22 +42,27 @@ Let's try some embedded html samples. Can embedded html contain markup?
 
 Check on various language strings for Clojure:
 
+Clojure
 ```Clojure
 (+ 1 2 3)
 ```
 
+CLJ (checking if caps ok)
 ```CLJ
 (+ 1 2 3)
 ```
 
+cljs
 ```cljs
 (+ 1 2 3)
 ```
 
+cljc
 ```cljc
 (+ 1 2 3)
 ```
 
+ClojureScript is not recognized as Clojure
 ```ClojureScript
 (+ 1 2 3)
 ```
