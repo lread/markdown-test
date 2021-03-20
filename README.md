@@ -22,3 +22,11 @@ How do relative images behave from deeper?
 > Quoted text.
 >
 > Another paragraph in quote.
+
+## Emojis
+
+:adhesive_bandage:
+:hatched_chick:
+:pushpin:
+
+
