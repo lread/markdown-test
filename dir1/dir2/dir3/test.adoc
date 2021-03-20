@@ -68,6 +68,12 @@ If we use markdown style quoted text, how does that appear on GitHub?
 
 Does github render emojis from adoc? bear :bear: smirk :smirk: grin :grin:
 
+What about :adhesive_bandage: :hatched_chick: :pushpin:?
+
+Can the be affected by superscript? ^:hatched_chick:^ Seems like yep.
+
+
+== Code blocks
 
 Code block language ids
 
