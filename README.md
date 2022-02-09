@@ -23,7 +23,7 @@ How do relative images behave from deeper?
 >
 > Another paragraph in quote.
 
-## Emojis test
+## Emojis
 
 :adhesive_bandage:
 :hatched_chick:
