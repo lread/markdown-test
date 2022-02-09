@@ -17,7 +17,7 @@ jobs:
       uses: fregante/setup-git-user@v1
 
     - name: Simulate version generation
-      run: echo "::set-output name=tag::1.0.$(git rev-list --count HEAD)"
+      run: echo "::set-output name=tag::v1.0.$(git rev-list --count HEAD)"
       id: target-version
 
     - name: Create version tag
