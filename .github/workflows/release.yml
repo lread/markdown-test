@@ -8,5 +8,20 @@ jobs:
     runs-on: 'ubuntu-latest'
 
     steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Setup git user so that we can later commit
+      uses: fregante/setup-git-user@v1
+
+    - name: Simulate version generation
+      run: echo "::set-output name=1.0.$(git rev-list --count HEAD)"
+      id: target-version
+
+    - name: Create version tag
+      run: echo "Would tag with ${{ steps.target-version.outputs.tag }}"
+
     - name: I was triggered!
       run: echo hello there
