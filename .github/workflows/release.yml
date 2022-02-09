@@ -23,8 +23,8 @@ jobs:
     - name: Create version tag
       run: |
         echo Tagging with ${{ steps.target-version.outputs.tag }}
-        git tag -a ${{ steps.target-version.outputs.tag }} -m Release ${{ steps.target-version.outputs.tag }}
-        #git push origin ${{ steps.target-version.outputs.tag }}
+        git tag -a ${{ steps.target-version.outputs.tag }} -m "Release ${{ steps.target-version.outputs.tag }}"
+        git push origin ${{ steps.target-version.outputs.tag }}
 
     - name: I was triggered!
       run: echo hello there
