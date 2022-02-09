@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - 'master'
+    tags:
+      - 'latest'
+
+jobs:
+  release:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - name: I was triggered!
+      run: echo hello
