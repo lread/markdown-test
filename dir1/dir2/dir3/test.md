@@ -74,3 +74,7 @@ Can I emded a definition list?
   <dt>Easier to use</dt>
   <dd>We've changed the product so that it's much easier to use!</dd>
 </dl>
+
+
+What about kdb in md?:
+<p>Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render an MDN page.</p>
