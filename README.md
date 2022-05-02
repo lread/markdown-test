@@ -29,4 +29,7 @@ How do relative images behave from deeper?
 :hatched_chick:
 :pushpin:
 
+## Svg Contrib Image Test
 
+![svg image](/images/contrib.svg)
+![svg image](/images/contrib.svg)

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" 
+height="130" width="240">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        @import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+      ]]>
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="223" height="120" rx="5"
+        fill="#7c7c7c" />
+
+  <rect x="1" y="1" width="223" height="120" rx="5"
+        fill="#f4f4f4" />
+
+  <text font-size="20" y="1em" x="0.2em" height="10"
+        font-family="'Droid Sans Mono', monospace">@lread</text>
+
+  <foreignObject x='0.2em' y='1.8em' width='90px' height='90px'>
+  <img
+    width='90px'
+    height='90px'
+    src="https://github.com/lread.png"
+    style="border-radius:4%" />
+  </foreignObject>
+
+  <!-- github article width is 830 cljdoc is 768 -->
+
+  <foreignObject x='97' y='1.7em' width="120px" height="90px">
+    <div width="120px" height="90px" style="font-size:12px;line-height:1.3">
+      <div style="block;white-space:nowrap;">
+       📖 docs
+      </div>
+
+      <span style="white-space:nowrap;">💻code</span>
+      <span style="white-space:nowrap;">🎨design</span>
+      <span style="white-space:nowrap;">🐛issues</span>
+      <span style="white-space:nowrap;">💬support</span>
+      <span style="white-space:nowrap;">👀review</span>
+      <span style="white-space:nowrap;">⚙️ops</span>
+      <span style="white-space:nowrap;">☁️infra</span>
+      <span style="white-space:nowrap;">💵sponsor</span>
+    </div>
+  </foreignObject>
+</svg>
