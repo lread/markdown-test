@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" 
-height="130" width="240">
-  <defs>
+<svg fill="none" viewBox="0 0 240 120" width="240" height="120" xmlns="http://www.w3.org/2000/svg">
+  defs>
     <style type="text/css">
       <![CDATA[
         @import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
@@ -9,16 +7,17 @@ height="130" width="240">
     </style>
   </defs>
 
-  <rect x="2" y="2" width="223" height="120" rx="5"
+  <rect x="2" y="2" width="223" height="100%" rx="5"
         fill="#7c7c7c" />
 
-  <rect x="1" y="1" width="223" height="120" rx="5"
+  <rect x="1" y="1" width="223" height="100%" rx="5"
         fill="#f4f4f4" />
 
-  <text font-size="20" y="1em" x="0.2em" height="10"
+  <text font-size="20px" y="20" x="2%" height="20%"
+        fill="black"
         font-family="'Droid Sans Mono', monospace">@lread</text>
 
-  <foreignObject x='0.2em' y='1.8em' width='90px' height='90px'>
+  <foreignObject x='2%' y='1.8em' width='38%' height='75%'>
   <img
     width='90px'
     height='90px'
@@ -28,7 +27,7 @@ height="130" width="240">
 
   <!-- github article width is 830 cljdoc is 768 -->
 
-  <foreignObject x='97' y='1.7em' width="120px" height="90px">
+  <foreignObject x='42%' y='20%' width="50%" height="75%">
     <div width="120px" height="90px" style="font-size:12px;line-height:1.3">
       <div style="block;white-space:nowrap;">
        📖 docs
