@@ -33,3 +33,29 @@ How do relative images behave from deeper?
 
 ![svg image](/images/contrib.svg)
 ![svg image](/images/contrib.svg)
+
+## details summary dropdowns
+An empty line before the code block seems necessary.
+
+<details><summary>Markdown</summary>
+
+```markdown
+[![bb compatible](https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg)](https://babashka.org)
+```
+</details>
+
+<details><summary>AsciiDoc</summary>
+
+```asciidoc
+https://babashka.org[image:https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg[bb compatible]]
+```
+</details>
+
+<details><summary>HTML</summary>
+
+```html
+<a href="https://babashka.org" rel="nofollow"><img src="https://github.com/babashka/babashka/raw/master/logo/badge.svg" alt="bb compatible" style="max-width: 100%;"></a>
+```
+</details>
+<br/>
+
