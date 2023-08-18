@@ -16,6 +16,17 @@ Are data uris supported? Seems like a no?
 
 image:data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=[Dot]
 
+Insert blank lines after image?
+
+image:/images/img1/image1.png[image 1]
+ +
+ +
+ +
+ +
+ +
+ +
+some text after blank lines
+
 == Collapsible
 
 Does github deal with collapsible?
