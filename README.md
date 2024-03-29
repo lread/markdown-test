@@ -57,5 +57,12 @@ https://babashka.org[image:https://raw.githubusercontent.com/babashka/babashka/m
 <a href="https://babashka.org" rel="nofollow"><img src="https://github.com/babashka/babashka/raw/master/logo/badge.svg" alt="bb compatible" style="max-width: 100%;"></a>
 ```
 </details>
+
+## Stem?
+https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
+
+$`\sqrt{3x-1}+(1+x)^2`$
+
+
 <br/>
 
