@@ -119,3 +119,9 @@ ClojureScript is not recognized as clojure block
 ----
 (+ 1 2 3)
 ----
+
+BB is recognized as Clojure
+[source,bb]
+----
+(+ 1 2 3)
+----
