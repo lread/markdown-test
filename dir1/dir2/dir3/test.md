@@ -76,5 +76,21 @@ Can I emded a definition list?
 </dl>
 
 
+
+
 What about kdb in md?:
 <p>Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render an MDN page.</p>
+
+
+Are spaces stripped in inline code? `testing             one           two`
+
+How does a list of code blocks look?
+
+- ```clojure
+  hello I'm a code block
+       ^
+  ```
+- ```clojure
+  I'm another code block
+               ^
+  ```
