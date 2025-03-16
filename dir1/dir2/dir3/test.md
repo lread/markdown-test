@@ -94,3 +94,8 @@ How does a list of code blocks look?
   I'm another code block
                ^
   ```
+  
+bb badges
+[![bb compatible](https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg)](https://book.babashka.org#badges)
+[![bb built-in](https://raw.githubusercontent.com/babashka/babashka/master/logo/built-in-badge.svg)](https://book.babashka.org#badges)
+  
