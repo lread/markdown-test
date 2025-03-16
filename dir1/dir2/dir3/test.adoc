@@ -125,3 +125,7 @@ BB is recognized as Clojure
 ----
 (+ 1 2 3)
 ----
+
+bb badges:
+https://book.babashka.org#badges[image:https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg[bb compatible]]
+https://book.babashka.org#badges[image:https://raw.githubusercontent.com/babashka/babashka/master/logo/built-in-badge.svg[bb built-in]]
