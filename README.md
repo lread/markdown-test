@@ -71,3 +71,7 @@ $`\sqrt{3x-1}+(1+x)^2`$
 Two --
 
 Three ---
+
+## Emojis
+
+`:people_holding_hands:` :people_holding_hands:
