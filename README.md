@@ -81,3 +81,5 @@ Three ---
 `:atom:` :atom:
 
 `:nope:` :nope:
+
+`multiple emojis no spaces` :fire::dog::cat::o2::atom::mouse:
