@@ -1,3 +1,17 @@
+== Emojis
+This following line (`:brain: :dog: :cat: :duck:`) will be interpreted as an adoc custom document attribute:
+
+:brain: :dog: :cat: :duck:
+
+Here's its value: {brain}.
+
+To suppress use `++++:brain:+ :dog: :cat: :duck:+++`
+
++:brain:+ :dog: :cat: :duck:
+
+Or `+++pass:[:brain:] :dog: :cat: :duck:+++`
+
+pass:[:brain:] :dog: :cat: :duck:
 
 == Image refs
 Does asciidoctor support the same realtive images links?
@@ -129,3 +143,4 @@ BB is recognized as Clojure
 bb badges:
 https://book.babashka.org#badges[image:https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg[bb compatible]]
 https://book.babashka.org#badges[image:https://raw.githubusercontent.com/babashka/babashka/master/logo/built-in-badge.svg[bb built-in]]
+
